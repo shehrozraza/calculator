@@ -1,0 +1,95 @@
+html,body{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 24.15rem;
+    width: 24rem;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px;
+}
+.display{
+    height: 5rem;
+    width: 22rem;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 1.5rem;
+    padding-left: 0.8rem;
+    font-size: 1.5rem;
+    color: black;
+    background-image: linear-gradient(white,rgba(0, 0, 0, 0.255));
+}
+.firstrow{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    width: 24rem;
+    margin-top: 1rem;
+    padding: -1px;
+}
+.button{
+    width: 5rem;
+    border-radius: 8px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(white,grey);
+    cursor: pointer;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(225, 224, 224));
+}
+.operator{
+    width: 5rem;
+    border-radius: 8px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.412),black);
+    color: white;
+    cursor: pointer;
+}
+.operator:hover{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+
+}
+.secondrow{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    width: 24rem;
+    margin-top: 1rem;
+}
+.thirdrow{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    width: 24rem;
+    margin-top: 1rem;
+    padding: -1px;
+}
+.fourthrow{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    width: 24rem;
+    margin-top: 1rem;
+    padding: -1px;
+}
+.C{
+    width: 5rem;
+    border-radius: 8px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(rgba(165, 42, 42, 0.733),brown);    
+    cursor: pointer;
+}
+.C:hover{
+    background-color: brown;
+}
